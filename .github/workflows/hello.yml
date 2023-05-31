@@ -13,3 +13,7 @@ jobs:
 
       - name: Run my action
         run: echo "Hello, GitHub Actions!"
+
+      - name: clang-tidy review
+        uses: ZedThree/clang-tidy-review@v0.13.1
+
